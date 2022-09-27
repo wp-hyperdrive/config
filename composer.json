@@ -1,0 +1,35 @@
+{
+    "name": "wp-hyperdrive/config",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "High Five",
+            "email": "hello@high-five.dev",
+            "homepage": "https://www.high-five.dev"
+        },
+        {
+            "name": "Harm Putman",
+            "email": "harm@high-five.dev",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "composer",
+        "wordpress",
+        "wp",
+        "wp-config"
+    ],
+    "support": {
+        "issues": "https://github.com/wp-hyperdrive/config/issues",
+        "forum": "https://github.com/wp-hyperdrive/config/wiki"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyperdrive\\Config\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
